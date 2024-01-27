@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { background-color: gray;  color: white;}
+ul, ol { list-style: none; }
+a { text-decoration: none; }
+a, button { cursor: pointer; }
+.container {
+    width: 70rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    padding: 2rem;
+    color: black;
+    background-color: gray;
+}
+.title {
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 2.6rem;
+}
+.form {
+    width: 100%;
+    margin: 2rem auto 1rem;
+    padding: 1.2rem 1.2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.form input {
+    width: 80%;
+    padding: .6rem 1.4rem;
+    border-radius: 40px;
+    border: .1rem solid black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.EditName  {
+    width: 100%;
+    padding: .5rem 1rem;
+    border-radius: 40px;
+    border: .1rem solid black;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.EditAge {
+    width: 100%;
+    padding: .5rem 1rem;
+    border-radius: 40px;
+    border: .1rem solid black;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.EditSave {
+    padding: .5rem 1rem;
+    border: .1rem solid black;
+    border-radius: 40px;
+    font-size: 0.8rem;
+
+}
+
+.name, 
+.age:hover {
+    box-shadow: 0 0 .4rem black;
+}
+
+.form button {
+    width: 7rem;
+    padding: .8rem .8rem;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+.form button:hover {
+    color: white;
+    box-shadow: 0 0 .4rem black;
+}
+.box {
+    width: 100%;
+    margin: 0 auto;
+    padding: .8rem;
+}
+.card_1 {
+    gap: .8rem;
+    width: 100%;
+    display: grid;
+    font-weight: 600;
+    margin-top: .8rem;
+    align-items: center;
+    padding: .5rem 1.4rem;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: 2fr 2fr .5fr;
+}
+h3 {
+    color: black;
+    padding: .5rem 1.4rem;
+}
+.card-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.edite , .delete {
+    font-size: 1.2rem;
+    padding: .5rem;
+    border-radius: 10px;
+}
+.edite {
+    background-color: white;
+    border: .1rem solid white;
+}
+.delete {
+    background-color: white;
+    border: .1rem solid black;
+}
+
+.delete :hover {
+    border-color: black;
+    border: .1rem solid black;
+}
+
+.card-btns button {
+    border: .1rem solid black;
+}
+
+.card-btns button:hover {
+    border-color: black;
+    box-shadow: 0 0 .4rem black;
+}
+
+.d-block {
+    display: block;
+}
+.d-nane {
+    display: none;
+}
